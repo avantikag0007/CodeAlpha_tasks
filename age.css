@@ -14,8 +14,7 @@
 }
 
 .calculator{
-   width: 100%;
-   max-width: 700px;
+   width: 500px;
    margin-left: 10%;
    margin-top: 5%;
    border: #6464f9 solid 2px;
@@ -29,7 +28,7 @@
 }
 
 .calculator h1{
-   font-size: 60px;
+   font-size: 30px;
 }
 
 .calculator h1 span{
@@ -38,11 +37,12 @@
 
 h2{
    text-decoration: 2px underline #f4f43e;
+   font-size: 20px;
 }
 
 .input-box{
-   margin: 40px 0;
-   padding:  35px;
+   margin: 20px 0;
+   padding:  15px;
    border-radius:10px;
    background: rgba(255,255,255,0.3);
    display: flex;
@@ -56,11 +56,11 @@ h2{
 
 .input-box input{
    flex:1;
-   margin-right: 20px;
-   padding: 14px 20px;
+   margin-right: 10px;
+   padding: 7px 10px;
    border: 0;
    outline: 0;
-   font-size: 18px;
+   font-size: 15px;
    border-radius: 5px;
    position: relative;
 }
@@ -74,7 +74,7 @@ button{
    background: #f4f43e;
    border: 0;
    outline: 0;
-   padding: 15px 30px;
+   padding: 10px 20px;
    border-radius:5px;
    font-weight: 600;
    color: #333;
@@ -95,12 +95,12 @@ button:hover{
    height: auto;
    position: absolute;
    background-position: calc(100% - 10px);
-   background-size: 30px;
+   background-size: 20px;
    cursor: pointer;
 }
 
 #result{
-   font-size: 20px;
+   font-size: 16px;
 }
 
 #result span{
